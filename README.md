@@ -5,8 +5,12 @@ version 0.15.1.
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+* npm install
+* bower install
+* Run `grunt` for building and `grunt serve` for preview.
 
 ## Testing
+* npm install karma --save-dev
+* npm install grunt-karma karma karma-phantomjs-launcher karma-jasmine jasmine-core phantomjs-prebuilt --save-dev
 
-Running `grunt test` will run the unit tests with karma.
+* Running `grunt test` will run the unit tests with karma.
